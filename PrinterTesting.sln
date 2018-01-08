@@ -2,7 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterSample_Step1", "PrinterSample_Step1.csproj", "{7635D1F1-FD5F-4EBD-8867-441A03F510FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstStep", "FirstStep\FirstStep.csproj", "{87648AD8-32E2-420E-B755-ED3A2D8FFD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterSample_Step1", "FrameStep1\PrinterSample_Step1.csproj", "{7635D1F1-FD5F-4EBD-8867-441A03F510FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,6 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87648AD8-32E2-420E-B755-ED3A2D8FFD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87648AD8-32E2-420E-B755-ED3A2D8FFD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87648AD8-32E2-420E-B755-ED3A2D8FFD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87648AD8-32E2-420E-B755-ED3A2D8FFD53}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7635D1F1-FD5F-4EBD-8867-441A03F510FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7635D1F1-FD5F-4EBD-8867-441A03F510FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7635D1F1-FD5F-4EBD-8867-441A03F510FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
